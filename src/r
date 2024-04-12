@@ -1,0 +1,272 @@
+import React from 'react';
+import './Tribute.css';
+
+const TributeToAPJAbdulKalam = () => {
+  return (
+    <div className="TributeToAPJAbdulKalam">
+      <div className="container">
+        <div className="content">
+          <h1>Tribute to Dr. A.P.J. Abdul Kalam</h1>
+          <div className="flex">
+            <div className="image">
+              <img
+                src="https://wallpaperaccess.com/full/1619220.jpg"
+                alt="Dr. A.P.J. Abdul Kalam"
+              />
+            </div>
+            <div className="text">
+              <p>
+                Dr. A.P.J. Abdul Kalam, born on October 15, 1931, in Rameswaram,
+                Tamil Nadu, was an aerospace scientist and the 11th President of
+                India. He is widely regarded as the "Missile Man of India" for
+                his pivotal contributions to India's civilian space program and
+                military missile development. Kalam was a true visionary and an
+                inspiration to millions of people across the nation.
+              </p>
+              <p>
+                Kalam was an inspirational figure known for his humility,
+                dedication, and unwavering commitment to the development of
+                India's scientific and technological capabilities. His passion
+                for education and research was unparalleled, and he played a
+                crucial role in shaping India's future.
+              </p>
+            </div>
+          </div>
+          <div className="achievements">
+            <h2>Achievements and Legacy</h2>
+            <div className="achievement-item">
+              <div className="achievement-image">
+                <img
+                  src="https://cdn.zeebiz.com/hindi/sites/default/files/2021/07/27/60202-indias-first-satellite-launch-vehicle-slv.jpg"
+                  alt="SLV-3 Satellite Launch Vehicle"
+                />
+              </div>
+              <div className="achievement-text">
+                <h3>Pioneering the SLV-3 Satellite Launch Vehicle</h3>
+                <p>
+                  Kalam played a crucial role in the development of India's first
+                  satellite launch vehicle, SLV-3, which successfully launched
+                  the Rohini satellite into Earth's orbit in 1980.
+                </p>
+              </div>
+            </div>
+            <div className="achievement-item">
+              <div className="achievement-image">
+                <img
+                  src="https://ssbcrack.com/wp-content/uploads/2015/07/Abdul-Kalam.jpg"
+                  alt="Agni Missile"
+                />
+              </div>
+              <div className="achievement-text">
+                <h3>Advancing India's Missile Technology</h3>
+                <p>
+                  Kalam served as the Project Director for India's first indigenous
+                  Satellite Launch Vehicle (SLV-III) and played a significant role
+                  in establishing India's self-reliance in missile technology.
+                </p>
+              </div>
+            </div>
+            <div className="achievement-item">
+              <div className="achievement-image">
+                <img
+                  src="https://www.mumbailive.com/images/media/images/images_1571123221547_abdul_kalam.jpg?bg=c39474&crop=620%2C348.0701754385965%2C0%2Cnull&fit=crop&fitToScale=w%2C1368%2C768&h=768&height=400&w=1368&width=620"
+                  alt="Dr. A.P.J. Abdul Kalam as President"
+                />
+              </div>
+              <div className="achievement-text">
+                <h3>Serving as the 11th President of India</h3>
+                <p>
+                  Kalam was appointed as the 11th President of India, serving from
+                  2002 to 2007. He was known for his humble demeanor and
+                  dedication to the nation.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="quotes">
+            <h2>Inspiring Quotes</h2>
+            <div className="quote">
+              <blockquote>
+                <p>
+                  "Dream is not that which you see while sleeping, it is something
+                  that does not let you sleep."
+                </p>
+                <cite>- Dr. A.P.J. Abdul Kalam</cite>
+              </blockquote>
+            </div>
+            <div className="quote-container">
+              <blockquote>
+                <p>
+                  "You have to dream before your dreams can come true."
+                </p>
+                <cite>- Dr. A.P.J. Abdul Kalam</cite>
+              </blockquote>
+            </div>
+            <div className="quote-container">
+              <blockquote>
+                <p>
+                  "If you fail, never give up because F.A.I.L. means 'First
+                  Attempt In Learning'."
+                </p>
+                <cite>- Dr. A.P.J. Abdul Kalam</cite>
+              </blockquote>
+            </div>
+            <div className="quote-container">
+              <blockquote>
+                <p>
+                  "The best way to find yourself is to lose yourself in the
+                  service of others."
+                </p>
+                <cite>- Dr. A.P.J. Abdul Kalam</cite>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div className="footer">
+          <p>
+            "Dr. A.P.J. Abdul Kalam's life and work continue to inspire
+            generations to come, reminding us of the power of determination,
+            hard work, and the pursuit of knowledge." - G.Mounika Priya.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default TributeToAPJAbdulKalam;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import React from 'react';
+
+const TributeToAPJAbdulKalam = () => {
+  return (
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center py-12">
+      <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+        <div className="px-8 py-10">
+          <h1 className="text-4xl font-bold text-indigo-600 mb-6 text-center">
+            Tribute to Dr. A.P.J. Abdul Kalam
+          </h1>
+          <div className="flex flex-col md:flex-row items-center mb-8">
+            <div className="md:w-1/2 md:pr-8 mb-6 md:mb-0">
+              <img width={350} height={379}
+                src="https://www.newszii.com/wp-content/uploads/2018/07/Dr-APJ-Abdul-Kalam.jpg"
+                alt="Dr. A.P.J. Abdul Kalam"
+                className="w-full h-auto rounded-lg shadow-md mx-auto max-w-xs md:max-w-none"
+              />
+            </div>
+            <div className="md:w-1/2 mt-4 md:mt-0">
+              <p className="text-gray-800 mb-4">
+                Dr. A.P.J. Abdul Kalam, born on October 15, 1931, in Rameswaram,
+                Tamil Nadu, was an aerospace scientist and the 11th President of
+                India. He is widely regarded as the "Missile Man of India" for
+                his pivotal contributions to India's civilian space program and
+                military missile development.
+              </p>
+              <p className="text-gray-800 mb-4">
+                Kalam was an inspirational figure known for his humility,
+                dedication, and unwavering commitment to the development of
+                India's scientific and technological capabilities.
+              </p>
+            </div>
+          </div>
+          <div className="bg-indigo-100 rounded-lg p-6">
+            <blockquote>
+              <p className="text-lg font-medium text-indigo-800 mb-4">
+                "Dream is not that which you see while sleeping, it is something
+                that does not let you sleep."
+              </p>
+              <cite className="text-gray-600">- Dr. A.P.J. Abdul Kalam</cite>
+            </blockquote>
+          </div>
+          <div className="mt-8">
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              Achievements and Legacy
+            </h2>
+            <ul className="list-disc list-inside text-gray-700">
+              <li className="mb-2">
+                Played a crucial role in the development of India's first
+                satellite launch vehicle, SLV-3.
+              </li>
+              <li className="mb-2">
+                Served as the Project Director for India's first indigenous
+                Satellite Launch Vehicle (SLV-III).
+              </li>
+              <li className="mb-2">
+                Awarded the Padma Bhushan (1981) and Padma Vibhushan (1990) for
+                his contributions to science and technology.
+              </li>
+              <li className="mb-2">
+                Served as the 11th President of India from 2002 to 2007.
+              </li>
+              <li>
+                Known for his motivational speeches and books, inspiring
+                millions of young minds across the nation.
+              </li>
+            </ul>
+          </div>
+          <div className="mt-8">
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              Inspiring Quotes
+            </h2>
+            <div className="bg-indigo-100 rounded-lg p-6">
+              <blockquote>
+                <p className="text-lg font-medium text-indigo-800 mb-4">
+                  "You have to dream before your dreams can come true."
+                </p>
+                <cite className="text-gray-600">
+                  - Dr. A.P.J. Abdul Kalam
+                </cite>
+              </blockquote>
+            </div>
+            <div className="bg-indigo-100 rounded-lg p-6 mt-4">
+              <blockquote>
+                <p className="text-lg font-medium text-indigo-800 mb-4">
+                  "If you fail, never give up because F.A.I.L. means 'First
+                  Attempt In Learning'."
+                </p>
+                <cite className="text-gray-600">
+                  - Dr. A.P.J. Abdul Kalam
+                </cite>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div className="bg-indigo-600 text-white py-4 px-8 rounded-b-lg">
+          <p>
+            "Dr. A.P.J. Abdul Kalam's life and work continue to inspire
+            generations to come, reminding us of the power of determination,
+            hard work, and the pursuit of knowledge." - [Your Name]
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default TributeToAPJAbdulKalam;
